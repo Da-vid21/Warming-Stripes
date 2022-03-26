@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>It's the End of the World as We Know It</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="./stripes.js"></script>
+        <link rel="Stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="intro">
+            <h2 class="title">Climate Change is Happening, and We're Not Ready</h2>
+
+            <p>Climate change threatens our agriculture, health, water supply, infrastructure and more. 
+            Only one phrase comes to mind.
+            We're screwed. 
+            </p>
+
+            <p>Let's tell you why—</p>
+
+
+            <p> Source: <a href="https://data.giss.nasa.gov/gistemp/">https://data.giss.nasa.gov/gistemp/</a>
+
+                <br>
+                <br>
+
+                Data display type:
+                <label><input type="radio" name="display-type" value="warming-stripes" onchange=" readData('GLB.TT.csv', '#warming-stripes');"> Warming Stripes</label>
+                <input type="radio" name="display-type" value="bar-graph" onchange=" readGraphData('GLB.TT.csv', '#warming-stripes');"></input> Bar Graph</label>
+        </div>  
+
+        <div class="warming-stripes" id="warming-stripes">
+            <svg width="1000" height="1000"></svg>
+        </div>    
+    </body>
+</html>
