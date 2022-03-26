@@ -51,8 +51,15 @@ padding: 10px 20px;
   left: 18%;
   background-color: white;
 }
+
 .northPole-txt{
   top: 10%;
   left: 5%;
   background-color: white;
+}
+
+.globe-svg {
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
