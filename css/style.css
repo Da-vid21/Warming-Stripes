@@ -1,66 +1,136 @@
-body{
-  background-color: black;
-  margin: auto;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-p{
-  font-family: 'Kiwi Maru', serif;
-font-weight: 300;
-  text-size: 12px;
-  
-}
-
-h1{
-   text-align: center;
-  font-family: 'Kiwi Maru', serif;
-  font-size: 16px;
-}
-
-.hide{
-  background-color: rgba(0,0,0,0.6);
-  border-radius: 5px;
-  text-aligh: center;
+header {
   position: absolute;
-  margin: 0 auto;
-padding: 10px 20px;
-  border: 1px solid #644666;
-  font-size: 12px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.EurAsia-txt{
-  top: 20%;
-  left: 60%;
-  background-color: white;
+header .logo {
+  color: aliceblue;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.africa-txt{
-  top: 25%;
-  left: 28%;
-  background-color: white;
-
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.northAmerica-txt{
-  top: 25%;
-  left: 9%;
-  background-color: white;
+header ul li {
+  list-style: none;
+  margin-left: 20px;
 }
 
-.southAmerica-txt{
-  top: 50%;
-  left: 18%;
-  background-color: white;
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: aliceblue;
+  border-radius: 20px;
 }
 
-.northPole-txt{
-  top: 10%;
-  left: 23%;
-  background-color: white;
+header ul li a:hover,
+header ul li a.active {
+  background-color: aliceblue;
+  color: #2b1055;
 }
 
-.globe-svg {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    vertical-align: center;
+.header_container {
+  position: flex;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(./materials/bg.jpg) no-repeat fixed center;
+  background-size: cover;
+  z-index: 2;
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.text h2 {
+  font-size: 5em;
+  font-weight: 700;
+  padding-bottom: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text h3 {
+  font-size: 3em;
+  font-weight: 500;
+  color: #fff;
+
+  text-transform: none;
+}
+
+.text p {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+
+.text a {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover {
+  letter-spacing: 10px;
+}
+
+.about_conainter p {
+  position: relative;
+  z-index: 10;
+}
+
+.footer_container {
+  position: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #08101c,
+    #07142a,
+    #041738,
+    #081845,
+    #151851
+  );
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
