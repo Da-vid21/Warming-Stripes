@@ -28,8 +28,8 @@ padding: 10px 20px;
 }
 
 .EurAsia-txt{
-  top: 10%;
-  left: 35%;
+  top: 20%;
+  left: 60%;
   background-color: white;
 }
 
@@ -54,7 +54,7 @@ padding: 10px 20px;
 
 .northPole-txt{
   top: 10%;
-  left: 5%;
+  left: 23%;
   background-color: white;
 }
 
@@ -62,4 +62,5 @@ padding: 10px 20px;
     display:flex;
     align-items:center;
     justify-content:center;
+    vertical-align: center;
 }
