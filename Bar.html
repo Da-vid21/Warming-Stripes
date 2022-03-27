@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>JavaScript Diverging Bar Chart</title>
-    <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScript Diverging Bar Chart</title>
+        <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-base.min.js" type="text/javascript"></script>
+        <script src="./Bar.html"></script>
+        <link rel="Stylesheet" href="css/style.css">
+        <section class="header_container">
     <style type="text/css">
       html,
       body,
@@ -13,6 +19,17 @@
         padding: 0;
       }
     </style>
+
+<header>
+  <a href="#" class="logo">Logo</a>
+  <ul>
+      <li><a href="Bar.html" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+</header>
+
   </head>
   <body>  
     <div id="container"></div>
@@ -101,5 +118,8 @@
     });
 
     </script>
+    <div class="Bar-graph" id="Bar-graph">
+      <svg width="300" height="400" ></svg>
+  </div>  
   </body>
 </html>

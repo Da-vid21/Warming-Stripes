@@ -18,8 +18,8 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </header>
-    </head>
-    <body>
+
+     <body>
         <div id="intro">
             <h2 class="title">Climate Change is Happening, and We're Not Ready</h2>
 
@@ -38,11 +38,11 @@
 
                 Data display type:
                 <label><input type="radio" name="display-type" value="warming-stripes" onchange=" readData('GLB.TT.csv', '#warming-stripes');"> Warming Stripes</label>
-                <input type="radio" name="display-type" value="bar-graph" onchange=" readGraphData('GLB.TT.csv', '#warming-stripes');"></input> Bar Graph</label>
+                <input type="radio" name="display-type" value="bar-graph" onchange=" readGraphData('Northern.Hemisphere.csv', '#bar-graph');"></input> Bar Graph</label>
         </div>  
 
         <div class="warming-stripes" id="warming-stripes">
             <svg width="1000" height="1000"></svg>
-        </div>    
+        </div>  
     </body>
 </html>
