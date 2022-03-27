@@ -64,3 +64,16 @@ padding: 10px 20px;
     justify-content:center;
     vertical-align: center;
 }
+.header_container {
+  position: flex;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../materials/bg.jpg) no-repeat fixed center;
+  background-size: cover;
+  z-index: 2;
+}
