@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>It's the End of the World as We Know It</title>
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="./stripes.js"></script>
-        <link rel="Stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div id="intro">
-            <h2 class="title">Climate Change is Happening, and We're Not Ready</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <section class="header_container">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="stripe.html">Warming Stripes</a></li>
+                <li><a href="news.html">Weekly News</a></li>
+                <li><a href="map.html">Climate Change Map</a></li>
+                <li><a href="about.html">About</a></li>
+                
+            </ul>
+        </header>
+        <div class="text">
+            <h2>Yup,</h2> 
+            <h3>We're skewed!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <a href="#">Explore</a>
+        </div>
+    </section>
 
-            <p>Climate change threatens our agriculture, health, water supply, infrastructure and more. 
-            Only one phrase comes to mind.
-            We're screwed. 
-            </p>
+    <div class="footer_container">
+        <p>from Cypher with ❤</p>
+    </div>
 
-            <p>Let's tell you why—</p>
-
-
-            <p> Source: <a href="https://data.giss.nasa.gov/gistemp/">https://data.giss.nasa.gov/gistemp/</a>
-
-                <br>
-                <br>
-
-                Data display type:
-                <label><input type="radio" name="display-type" value="warming-stripes" onchange=" readData('GLB.TT.csv', '#warming-stripes');"> Warming Stripes</label>
-                <input type="radio" name="display-type" value="bar-graph" onchange=" readGraphData('GLB.TT.csv', '#warming-stripes');"></input> Bar Graph</label>
-        </div>  
-
-        <div class="warming-stripes" id="warming-stripes">
-            <svg width="1000" height="1000"></svg>
-        </div>    
-    </body>
+    
+</body>
 </html>

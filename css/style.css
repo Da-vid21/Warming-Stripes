@@ -60,7 +60,7 @@ header ul li a.active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(./materials/bg.jpg) no-repeat fixed center;
+  background: url(../materials/bg.jpg) no-repeat fixed center;
   background-size: cover;
   z-index: 2;
 }
@@ -133,4 +133,7 @@ header ul li a.active {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.intro{
+  color: white;
 }
