@@ -27,10 +27,8 @@ Climate change has been occurring for decades, and while the rate of change is g
 
 ### What does this numbers mean?
 
-In this project, we used csv files containing climate change data going back over 100 years to produce a bar graph and a warming stipe to show the consequences of global warming over this period of time. These numbers serve as a way of telling the audience that climate change is serious and needs our attention.
-
 ---
-### Visualizations
+### 🧐 Visualizations
 
 [![Google](https://img.shields.io/website?label=google.com&style=for-the-badge&url=https://codestackr.com)](https://google.com)
 
