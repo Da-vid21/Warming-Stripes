@@ -42,7 +42,7 @@ We collaborated on code using Github, and Github acted as a command center where
 
 We also delegated tasks via Github and used branches as a form of tracking where team members were at and what tasks needed completing. 
 
-When we had trouble with a feature in our own branch, we would push to branch and have fellow team members review the branch, push changes to get through the kinks, and then resumed working on the branch. Together, we had 30+ commits, which doesn't even count the commits within branches.
+When we had trouble with a feature in our own branch, we would push to branch and have fellow team members review the branch, push changes to get through the kinks, and then resumed working on the branch. Together, we had 55+ commits, which doesn't even count the commits within branches.
 
 ---
 ### 🧐 Visualizations
