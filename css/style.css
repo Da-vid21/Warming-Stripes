@@ -139,7 +139,17 @@ header ul li a.active {
   color: white;
 }
 
-.link{
+.link {
   color: blue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info_container {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.info_container p {
+  line-height: 2;
 }
