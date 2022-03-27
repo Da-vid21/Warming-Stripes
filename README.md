@@ -33,6 +33,7 @@ Climate change has been occurring for decades, and while the rate of change is g
 
 ### What do the numbers mean?
 
+We created a warming stripes as well as a bar graph using csv files containing climate change data from several areas. These graphs depict how climate change has impacted the planet over the last 200 years in greater detail. And if it wasn't enough this also serves as a means of educating people about the seriousness of climate change.
 
 ---
 
