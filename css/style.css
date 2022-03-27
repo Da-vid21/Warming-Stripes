@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 header {
@@ -136,4 +137,9 @@ header ul li a.active {
 }
 .intro {
   color: white;
+}
+
+.link{
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
